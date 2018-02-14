@@ -22,7 +22,7 @@
 
 #import "RCTBaseTextInputView+Hack.h"
 
-@implementation RCTBaseTextInputView (Hack)
+@implementation RCTTextInput (Hack)
 
 - (void)invalidateInputAccessoryView_avoid {
   if ([[IQKeyboardManager sharedManager] isEnableAutoToolbar]) {
